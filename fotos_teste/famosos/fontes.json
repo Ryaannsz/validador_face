@@ -1,0 +1,45 @@
+{
+  "repositorio": "https://github.com/serengil/deepface",
+  "commit": "31cf970204d5912da90a62e0a9150f0f55547905",
+  "rotulos": [
+    "https://sefiks.com/2020/05/22/fine-tuning-the-threshold-in-face-recognition/",
+    "https://sefiks.com/2021/03/02/deep-face-recognition-with-redis/"
+  ],
+  "imagens": [
+    {
+      "pessoa": "Angelina Jolie",
+      "arquivo": "pessoas_autorizadas/Angelina_Jolie/referencia.jpg",
+      "resultado_esperado": "cadastro autorizado",
+      "url": "https://raw.githubusercontent.com/serengil/deepface/31cf970204d5912da90a62e0a9150f0f55547905/tests/unit/dataset/img1.jpg",
+      "sha256": "897c073e8af7c297cf179fadf4f59538d1efa17722679447475463d61c72bac3"
+    },
+    {
+      "pessoa": "Angelina Jolie",
+      "arquivo": "fotos_teste/famosos/angelina_jolie.jpg",
+      "resultado_esperado": "ACESSO LIBERADO",
+      "url": "https://raw.githubusercontent.com/serengil/deepface/31cf970204d5912da90a62e0a9150f0f55547905/tests/unit/dataset/img2.jpg",
+      "sha256": "b43c2b1c32553f6fd87ecfdb9eceebd07ffb0139dfe9f4a68bd8ff07b066d136"
+    },
+    {
+      "pessoa": "Jennifer Aniston",
+      "arquivo": "fotos_teste/famosos/jennifer_aniston.jpg",
+      "resultado_esperado": "ACESSO NEGADO",
+      "url": "https://raw.githubusercontent.com/serengil/deepface/31cf970204d5912da90a62e0a9150f0f55547905/tests/unit/dataset/img3.jpg",
+      "sha256": "99379580084327f343cbeb8f02b003618ee37871c5781ec26044178a374b3138"
+    },
+    {
+      "pessoa": "Scarlett Johansson",
+      "arquivo": "fotos_teste/famosos/scarlett_johansson.jpg",
+      "resultado_esperado": "ACESSO NEGADO",
+      "url": "https://raw.githubusercontent.com/serengil/deepface/31cf970204d5912da90a62e0a9150f0f55547905/tests/unit/dataset/img49.jpg",
+      "sha256": "9fbfd108597f42e7b7f04c4b0e0070b74c0dc1dba06208abed70166a30da7615"
+    },
+    {
+      "pessoa": "Katy Perry",
+      "arquivo": "fotos_teste/famosos/katy_perry.jpg",
+      "resultado_esperado": "ACESSO NEGADO",
+      "url": "https://raw.githubusercontent.com/serengil/deepface/31cf970204d5912da90a62e0a9150f0f55547905/tests/unit/dataset/img42.jpg",
+      "sha256": "98e26cfe55a0e4341ffac6b7e70bebc52bb62f80efd5762cf04af23b288b5604"
+    }
+  ]
+}

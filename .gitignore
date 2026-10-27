@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+modelos/
+resultados/*
+!resultados/.gitkeep
+pessoas_autorizadas/**/*.jpg
+pessoas_autorizadas/**/*.jpeg
+pessoas_autorizadas/**/*.png
+pessoas_autorizadas/**/*.bmp
+pessoas_autorizadas/**/*.webp
+fotos_teste/**/*.jpg
+fotos_teste/**/*.jpeg
+fotos_teste/**/*.png
+fotos_teste/**/*.bmp
+fotos_teste/**/*.webp
+.DS_Store

@@ -1,0 +1,16 @@
+[project]
+name = "validador-face"
+version = "0.1.0"
+description = "Reconhecimento facial em imagens com OpenCV e DeepFace."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "deepface[tensorflow]==0.0.101",
+    "opencv-python>=4.10,<5",
+    "numpy>=1.26,<3",
+    "tensorflow==2.21.0",
+    "tf-keras==2.21.0",
+]
+
+[tool.uv]
+package = false
